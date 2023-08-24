@@ -58,7 +58,7 @@
                 </form>
             </div>
             <div class="md:col-span-6 md:flex animate__animated animate__fadeIn">
-                <img  class="rounded-lg drop-shadow-lg" src="{{ asset('storage/images/image1.jpg') }}" alt="mockup">
+                <img  class="rounded-lg drop-shadow-lg" src="{{ asset('storage/images/image1.jpg') }}" alt="">
             </div>
         </div>
     </div>

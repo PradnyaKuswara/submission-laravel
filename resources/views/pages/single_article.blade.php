@@ -13,7 +13,7 @@
             <div class="col-span-1 flex items-center gap-x-2">
                 <img class="w-4 h-4 mx-auto rounded-full "
                     src="{{ $data->user->image_path ? asset('storage/images/' . $data->user->image_path) : asset('storage/images/KOJIDEV.png') }}"
-                    alt="user photo">
+                    alt="image-article">
                 <p class="text-xs">{{ $data->user->name }}</p>
             </div>
             <div class="col-span-1">

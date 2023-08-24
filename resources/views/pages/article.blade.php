@@ -14,7 +14,7 @@
                         <div class=" rounded-lg p-5 bg-white w-full h-full  hover:opacity-70 ">
                             <img class="rounded-lg mx-auto w-80 h-64"
                                 src=" {{ $item->image_path ? asset('storage/images/' . $item->image_path) : asset('storage/images/KOJIDEV.png') }}"
-                                alt="">
+                                alt="image-article">
                             <p class="text-md md:text-lg my-2 text-center font-bold font-sans">{{ $item->title }}</p>
                             <p class="text-xs text-center text-gray-400"><span
                                     class="text-sm mr-2 items-center font-bold text-teal-900">.</span>{{ Carbon\Carbon::parse($item->created_at)->format('F d, Y') }}<span
